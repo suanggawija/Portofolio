@@ -14,6 +14,13 @@ const Project = () => {
           toolImage={Laravel}
           githubLink={'https://fonts.google.com/'}>
         </ProjectCard>
+        <ProjectCard 
+          imageCard={Load} 
+          heading={'Crud proram laravel'} 
+          text={'aplikasi CRUD sederhana dengan menggunakan Laravel'}
+          toolImage={Laravel}
+          githubLink={'https://fonts.google.com/'}>
+        </ProjectCard>
       </div>
     </div>
   )

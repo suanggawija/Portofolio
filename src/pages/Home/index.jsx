@@ -4,7 +4,7 @@ import { Profile } from '../../assets'
 
 const Home = () => {
   return (
-    <div className='w-full lg:h-screen flex items-center gap-16 px-6 lg:px-44' id='home' >
+    <div className='w-full lg:h-screen flex items-center gap-16 px-6 lg:px-44 mb-24 lg:mb-0' id='home' >
         <div className='lg:grid lg:grid-cols-3 flex flex-col-reverse'>
             <div className='lg:col-span-2 text-center lg:text-left lg:mt-0 mt-12'>
                 <span className='text-xl'>Hai, Perkenalkan Saya</span>
