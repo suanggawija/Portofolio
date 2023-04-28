@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ImageCard = ({image}) => {
+const ImageCard = (props) => {
   return (
     <div className='w-full h-72 bg-white overflow-hidden object-cover rounded-md '>
-        <img src={image} alt="" className='w-full' />
+        <img src={props.image} alt="" className='w-full' />
     </div>
   )
 }

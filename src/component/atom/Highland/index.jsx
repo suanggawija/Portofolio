@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Highland = ({text}) => {
+const Highland = (props) => {
   return (
-    <div className='text-main-color font-bold'>{text}</div>
+    <div className='text-main-color font-bold'>{props.text}</div>
   )
 }
 
