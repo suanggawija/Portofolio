@@ -8,7 +8,7 @@ const About = () => {
         <div className='md:h-screen flex flex-col pt-20 md:pt-32 items-center' id='about'>
             <Heading heading={'Teantang Saya'}/>
             <div className='py-6 md:py-8'><img src={Profile} alt="" className='w-48' /></div>
-            <div className='md:w-7/12 w-10/12 md:pt-6 pb-6 text-center'>
+            <div className='md:w-7/12 w-10/12 pb-6 text-center'>
                 <Paragraf paragraf={'Hallo semuanya, saya I Putu Gede Suangga Wijanatha, orang orang memanggil saya Suangga.  Saya berumur 20 tahun dan kini tinggal di Denpasar Bali. Saya merupakan mahasiswa dari Instutut Bisnis Dan Teknologi Indonesia. Saya suka dalam melakukan eksplorasi terhadap perkembangan aplikasi website terutama pada bidang fronted dengan menggunakan React JS dan sampai sekarang terus belajar untuk mendalami ilmu saya.'}/>
             </div>
             <div className='flex gap-3'>
