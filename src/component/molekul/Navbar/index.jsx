@@ -14,9 +14,7 @@ const Navbar = () => {
                 <div className="grid grid-flow-col gap-6 justify-center items-center">
                     <NavLink title={<img src={Translite} alt="" />}  link={'/'}/>
                     <NavLink title={<img src={Moon} alt="" />}  link={'/'}/>
-                    <a target="_blank" href="https://github.com/suanggawija">
-                      <NavLink title={<img src={Github} alt="" />} />
-                    </a>
+                    <NavLink title={<img src={Github} alt="" />}  link={'https://github.com/suanggawija'}/>
                 </div>
             </div>
     </div>
