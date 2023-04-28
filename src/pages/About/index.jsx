@@ -8,7 +8,7 @@ const About = () => {
         <div className='h-screen flex flex-col pt-32 items-center' id='about'>
             <Heading heading={'Teantang Saya'}/>
             <div className='py-8'><img src={Profile} alt="" className='w-48' /></div>
-            <div className='w-7/12 pt-6 pb-12 text-center'>
+            <div className='lg:w-7/12 w-9/12 pt-6 pb-12 text-center'>
                 <Paragraf paragraf={'Hallo semuanya, saya I Putu Gede Suangga Wijanatha, orang orang memanggil saya Suangga.  Saya berumur 20 tahun dan kini tinggal di Denpasar Bali. Saya merupakan mahasiswa dari Instutut Bisnis Dan Teknologi Indonesia. Saya suka dalam melakukan eksplorasi terhadap perkembangan aplikasi website terutama pada bidang fronted dengan menggunakan React JS dan sampai sekarang terus belajar untuk mendalami ilmu saya.'}/>
             </div>
             <div className='flex gap-3'>
@@ -16,9 +16,9 @@ const About = () => {
                 <CV/>
             </div>
         </div>
-        <div className='h-screen text-center flex flex-col items-center justify-center'>
+        <div className='lg:h-screen text-center flex flex-col items-center justify-center pt-64 pb-24 lg:pb-0 lg:pt-0'>
             <Heading heading={'Keahlian Saya'}/>
-            <div className='grid grid-cols-5 gap-8 px-52 pt-12'>
+            <div className='grid lg:grid-cols-5 grid-cols-3 gap-8 px-12 lg:px-52 pt-12'>
                 <SkillBox image={Html}/>
                 <SkillBox image={Css}/>
                 <SkillBox image={Javascript}/>
