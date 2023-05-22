@@ -1,6 +1,7 @@
 {
   "name": "portofolio",
   "private": true,
+  "homepage": "https://suanggawijanatha.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
